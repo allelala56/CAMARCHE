@@ -1,0 +1,59 @@
+[
+    {
+        "id": "spam",
+        "name": "\ud83d\udce3 Spam sur lien",
+        "price": 25,
+        "category": "Services",
+        "description": "25\u20ac/1k - Fourniture de SIM incluse.",
+        "enabled": true
+    },
+    {
+        "id": "prixtel",
+        "name": "\ud83d\udce6 Teknique Pristelle",
+        "price": 50,
+        "category": "Services",
+        "description": "Technique pour sortir 3 SIM par compte remboursables.",
+        "enabled": true
+    },
+    {
+        "id": "logs",
+        "name": "\ud83e\uddfe Logs (Facebook, Netflix, Amazon...)",
+        "price": 10,
+        "category": "Comptes",
+        "description": "Acc\u00e8s logs divers pour usage priv\u00e9.",
+        "enabled": true
+    },
+    {
+        "id": "mext",
+        "name": "\ud83d\udd10 Compte crypto MEXT",
+        "price": 50,
+        "category": "Comptes",
+        "description": "Compte v\u00e9rifi\u00e9 pr\u00eat \u00e0 l'emploi.",
+        "enabled": true
+    },
+    {
+        "id": "ml",
+        "name": "\ud83d\udce7 Maillist",
+        "price": 5,
+        "category": "Data",
+        "description": "5\u20ac/k - Emails valides.",
+        "enabled": true
+    },
+    {
+        "id": "nl",
+        "name": "\ud83d\udcf1 Numlist cibl\u00e9e",
+        "price": 5,
+        "category": "Data",
+        "description": "5\u20ac/k - Num\u00e9ros avec infos.",
+        "enabled": true
+    },
+    {
+        "id": "ccbox",
+        "name": "\ud83d\udcb3 Bo\u00eete de CC (minuit)",
+        "price": 280,
+        "category": "Drops",
+        "description": "Disponible uniquement \u00e0 00h.",
+        "enabled": true,
+        "restricted_time": 0
+    }
+]
