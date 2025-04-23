@@ -61,7 +61,7 @@ def show_category(call):
     for s in services:
         if s["category"] == category and s["enabled"]:
             label = f'{s["name"]} - {s["price"]}€'
-            markup.add(telebot.types.InlineKeyboardButton(label, callback_data=f"BUY_{s["id"]}"))
+            markup.add(telebot.types.InlineKeyboardButton(label, callback_data=f"BUY_{s['id']}"))
     markup.add(telebot.types.InlineKeyboardButton("🔙 Retour", callback_data="BACK"))
     bot.edit_message_text(f"📦 {category} :", call.message.chat.id, call.message.message_id, reply_markup=markup)
 
